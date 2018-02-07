@@ -24,6 +24,8 @@ public:
 	void imgRoIFromPixel();
 	//  通过文件名判断proble文件是否源自gallery文件，proble文件名比gallery文件名多了“_****”，如：“134_0.jpg”源自文件“134.jpg”
 	void imgRoIFromFileName();
+	//  通过文件名判断gallery中是否存在和proble文件同名的文件
+	void imgIsSameByName();
 };
 
 #endif
